@@ -1,0 +1,31 @@
+.wrapper {
+  margin: 20px 0;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+.btnActive {
+  background-color: #44c767e0;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+
+.btnActive:hover {
+  background-color: #83e84cec;
+}

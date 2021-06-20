@@ -1,0 +1,39 @@
+.wrapper {
+  margin: 20px 0;
+  height: 50px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  width: 75%;
+  height: 30px;
+  outline: none;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+
+.btn {
+  width: 25%;
+  height: 30px;
+  background-color: #44c767e0;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 0 10px 10px 0;
+}
+
+.btn:hover {
+  background-color: #83e84c;
+  color: black;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
